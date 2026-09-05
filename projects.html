@@ -28,7 +28,7 @@
       <li><a href="experience.html" data-page="experience.html">Experience</a></li>
       <li><a href="projects.html" data-page="projects.html">Projects</a></li>
       <li><a href="contact.html" data-page="contact.html">Contact</a></li>
-      <li><a href="https://www.linkedin.com/in/aminulrony2024/overlay/1753795772562/single-media-viewer/?profileId=ACoAADc65vEBM5mcW2o8-2ng1kBLvuhKdHFjCFE" target="_blank" rel="noopener" class="btn-resume">Resume</a></li>
+      <li><a href="https://drive.google.com/file/d/1URMf5X-MyYYsySYP_rUqmgkyk8toOMJb/view?usp=drive_link" target="_blank" rel="noopener" class="btn-resume">Resume</a></li>
     </ul>
   </div>
 </header>
@@ -51,22 +51,23 @@
       <div class="paper">
         <span class="paper-ref">[1] MLOps · End-to-End ML System</span>
         <h3>FinPredict — Intelligent Loan Approval System</h3>
-        <span class="paper-sub">XGBoost · FastAPI · React.js · MLflow · Apache Airflow · DVC · Docker · Prometheus · Grafana</span>
+        <span class="paper-sub">Mar 2026 – May 2026 · XGBoost · FastAPI · MLflow · Apache Airflow · DVC · Docker · Prometheus · Grafana · Alertmanager</span>
         <span class="abstract-label">Abstract</span>
         <p>
           FinPredict tackles the problem of manual, inconsistent loan approval decisions in financial
           institutions. An XGBoost classifier trained on 52,000 loan records predicts approval or
-          rejection from 24 applicant features, served through a FastAPI backend and a React frontend.
-          The full MLOps lifecycle is covered: DVC for two-version data tracking, MLflow for experiment
-          tracking and model registry, a 7-task Airflow DAG for pipeline orchestration, and Prometheus +
-          Grafana for real-time monitoring and drift detection — all containerized with Docker Compose.
+          rejection, served through a FastAPI REST API and containerized with Docker Compose. The full
+          MLOps lifecycle is covered: DVC and Airflow for reproducible, automated data pipelines, MLflow
+          for experiment tracking, and Prometheus + Grafana + Alertmanager for real-time monitoring with
+          automated alerts on latency, errors, and data drift.
         </p>
         <div class="metrics">
           <div><strong>85.02%</strong>Accuracy</div>
           <div><strong>88.84%</strong>F1-Score</div>
           <div><strong>81.88%</strong>ROC-AUC</div>
-          <div><strong>&lt;50ms</strong>Latency</div>
         </div>
+        <span class="abstract-label" style="margin-top:4px;">Technologies</span>
+        <p style="margin:0 0 12px; font-size:14px;">Python, XGBoost, Scikit-learn, MLflow, DVC, Apache Airflow, FastAPI, Docker, Docker Compose, Prometheus, Grafana, Alertmanager, React.js, Pandas, NumPy, Pytest, Git, GitHub</p>
         <div class="paper-links">
           <a href="https://github.com/aminulrony2024/DA5402-MLOPS-End-to-End-Project" target="_blank" rel="noopener">GitHub Repository →</a>
           <span class="disabled">No live demo</span>
@@ -74,19 +75,44 @@
       </div>
 
       <div class="paper">
-        <span class="paper-ref">[2] Full-Stack · MERN</span>
-        <h3>KIIT International Student Portal</h3>
-        <span class="paper-sub">HTML5 · CSS3 · JavaScript · React.js · JWT · Node.js · Express.js · Firebase · MongoDB</span>
+        <span class="paper-ref">[2] Distributed Computing · Benchmarking</span>
+        <h3>Distributed Data Processing &amp; Performance Benchmarking</h3>
+        <span class="paper-sub">Apr 2026 – May 2026 · Ray · Apache Spark · PySpark</span>
         <span class="abstract-label">Abstract</span>
         <p>
-          A platform designed to streamline the visa renewal process for international students at KIIT
-          University, facilitating communication and secure document exchange between students and the
-          International Relations Office (IRO) to prevent visa expiry fines. Implemented Firebase
-          Authentication for user management, a Node.js/Express.js backend for secure data storage and
-          communication with MongoDB, and digital document upload/management using Multer middleware.
-          Access control is secured with JWT-based authentication, and the system exposes RESTful APIs
-          for efficient data exchange between frontend and database.
+          Developed distributed data pipelines in both Ray and Apache Spark to process large-scale
+          datasets, then benchmarked ingestion, cleaning, joining, transformation, and write performance
+          across a two-node cluster. Processed 72.4M+ records and found Ray to be 17% faster overall,
+          while Spark used less peak memory — a practical comparison of two dominant distributed
+          computing frameworks.
         </p>
+        <div class="metrics">
+          <div><strong>72.4M+</strong>Records Processed</div>
+          <div><strong>17%</strong>Faster with Ray</div>
+        </div>
+        <span class="abstract-label" style="margin-top:4px;">Technologies</span>
+        <p style="margin:0 0 12px; font-size:14px;">Ray, Apache Spark, PySpark, Python, Pandas, PyArrow, NumPy, Matplotlib, Seaborn</p>
+        <div class="paper-links">
+          <span class="disabled">Repository shared on request</span>
+        </div>
+      </div>
+
+      <div class="paper">
+        <span class="paper-ref">[3] Full-Stack · MERN</span>
+        <h3>KIIT International Student Portal</h3>
+        <span class="paper-sub">Feb 2024 – May 2024 · React.js · Vite · Tailwind CSS · Node.js · Express.js · MongoDB · Firebase</span>
+        <span class="abstract-label">Abstract</span>
+        <p>
+          A full-stack platform designed to streamline the visa renewal process for international
+          students at KIIT University, facilitating communication and secure document exchange between
+          students and the International Relations Office (IRO) to prevent visa expiry fines.
+          Implemented Firebase Authentication with OAuth/JWT-based authorization for secure access
+          control, a Node.js/Express.js backend for data storage and communication with MongoDB, and
+          digital document upload/management using Multer middleware. RESTful APIs were designed for
+          efficient frontend–backend and database communication.
+        </p>
+        <span class="abstract-label" style="margin-top:4px;">Technologies</span>
+        <p style="margin:0 0 12px; font-size:14px;">HTML5, CSS3, JavaScript, React.js, Vite, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase, OAuth/JWT, Multer, REST APIs</p>
         <div class="paper-links">
           <a href="https://kiit-iro-portal.web.app/" target="_blank" rel="noopener">Live Site →</a>
           <a href="https://github.com/aminulrony2024/KIIT-INTERNATIONAL-STUDENT-PORTAL" target="_blank" rel="noopener">GitHub Repository →</a>
@@ -94,16 +120,19 @@
       </div>
 
       <div class="paper">
-        <span class="paper-ref">[3] Browser Automation</span>
+        <span class="paper-ref">[4] Browser Automation</span>
         <h3>AMT — Task Automation Extension</h3>
-        <span class="paper-sub">JavaScript · Chrome Extension APIs · HTML</span>
+        <span class="paper-sub">Aug 2023 – Oct 2023 · JavaScript · HTML5 · CSS3</span>
         <span class="abstract-label">Abstract</span>
         <p>
           A browser extension built to automate task selection and acceptance for data-entry jobs on
-          microworkers.com. The extension removes the manual overhead of searching and accepting tasks,
-          letting users act on available jobs faster and focus their time on completing work rather than
-          hunting for it — built to run seamlessly across both desktop and mobile browsers.
+          microworkers.com, improving user efficiency and earnings. Designed and optimized a real-time
+          job selection and acceptance algorithm to reduce manual effort, with integrated notification
+          features to alert users about task acceptance — built to run seamlessly across desktop and
+          mobile browsers.
         </p>
+        <span class="abstract-label" style="margin-top:4px;">Technologies</span>
+        <p style="margin:0 0 12px; font-size:14px;">HTML5, CSS3, JavaScript</p>
         <div class="paper-links">
           <a href="https://github.com/aminulrony2024/amt-v.2024.3" target="_blank" rel="noopener">GitHub Repository →</a>
           <span class="disabled">No live demo</span>
@@ -116,6 +145,7 @@
 
 <footer class="site-footer">
   <div class="wrap site-footer">
+    <p>© <span id="year"></span> Md. Aminul Islam Rony. Built with HTML, CSS &amp; JavaScript.</p>
     <ul class="footer-links">
       <li><a href="https://github.com/aminulrony2024" target="_blank" rel="noopener">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/aminulrony2024" target="_blank" rel="noopener">LinkedIn</a></li>
