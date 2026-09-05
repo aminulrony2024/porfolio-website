@@ -185,11 +185,6 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   width:100%; aspect-ratio: 4/5; object-fit: cover;
   filter: grayscale(15%) sepia(6%);
 }
-.portrait-frame::before{
-  content:"Fig. 1 — Portrait";
-  position:absolute; bottom:-26px; left:14px;
-  font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft);
-}
 
 /* ---------- Sections generic ---------- */
 .section{ padding: 68px 0; border-bottom: 1px solid var(--line); }
